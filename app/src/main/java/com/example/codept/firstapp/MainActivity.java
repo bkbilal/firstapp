@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public  void openLogin(){
 
-        btn=(Button) findViewById(R.id.loginbtn);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btttn=(Button) findViewById(R.id.loginbtn);
+        btttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent inte=new Intent("com.example.codept.firstapp.Login");
